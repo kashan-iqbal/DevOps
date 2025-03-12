@@ -18,3 +18,5 @@ jobs:
         run: npm install
       - name: make the build of the code
         run: npm run build
+      - name: Show the build
+        run: ls -la
